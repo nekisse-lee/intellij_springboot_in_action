@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+
+server:
+  port: 8989
+  ssl:
+    key-store: ///path/to/mykeys.jks
+    key-store-password: nekisse
+    key-password: nekisse
+
+
